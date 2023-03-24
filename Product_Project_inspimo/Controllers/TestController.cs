@@ -6,23 +6,27 @@ using System.Web.Mvc;
 
 namespace Product_Project_inspimo.Controllers
 {
-    public class DefaultController : Controller
+    public class TestController : Controller
     {
-        
+        // GET: Test
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Index2()
+        public ActionResult UserList()
         {
             return View();
         }
 
-        public ActionResult Index3()
+        public ActionResult NewUser()
         {
             return View();
         }
 
+        public ActionResult ToDoList()
+        {
+            return View();
+        }
     }
 }

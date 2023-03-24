@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -138,6 +139,19 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="web\css\flexslider.css" />
+    <Content Include="web\css\style.css" />
+    <Content Include="web\images\1.jpg" />
+    <Content Include="web\images\2.jpg" />
+    <Content Include="web\images\left.png" />
+    <Content Include="web\images\nazim.png" />
+    <Content Include="web\images\ragnar.jpeg" />
+    <Content Include="web\images\right.png" />
+    <Content Include="web\index.html" />
+    <Content Include="web\js\jquery-1.11.1.min.js" />
+    <Content Include="web\js\jquery.circlechart.js" />
+    <Content Include="web\js\jquery.flexslider.js" />
+    <Content Include="web\w3layouts-License.txt" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -165,6 +179,14 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Default\Index2.cshtml" />
+    <Content Include="Views\Default\Index3.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\Shared\_NavBarLayout.cshtml" />
+    <Content Include="Views\Test\UserList.cshtml" />
+    <Content Include="Views\Test\NewUser.cshtml" />
+    <Content Include="Views\Test\ToDoList.cshtml" />
+    <Content Include="web\images\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
